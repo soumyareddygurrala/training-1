@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #b5c5e1;
+    padding: 10px 0;
+}
+
+.navbar {
+    list-style: none;
+    display: flex;
+    justify-content: left;
+    gap: 15px;
+    padding: 0;
+    margin: 0;
+}
+
+.navbar li {
+    color: blueviolet;
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    margin: 10px;
+    gap: 10px;
+}
+
+.left-section {
+    flex: 1;
+    text-align: left;
+    background-color: #b4c0c2;
+}
+
+.photo1 {
+    margin-bottom: 10px;
+    width: 300%;
+    max-width: 470px;
+
+}
+.photo2 {
+    margin-bottom: 10px;
+    width: 300%;
+    max-width: 470px; 
+}
+
+.hello1 {
+    text-align: left;
+    font-size: 14px;
+    margin: 10px 0;
+}
+
+.middle-section {
+    flex: 2; 
+    background-color: #b4c0c2;
+    padding: 20px;
+}
+
+.middle-section h1 {
+    font-size: 22px;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.middle-section p {
+    line-height: 1.6;
+    color: #555;
+    margin-bottom: 20px;
+
+}
+
+.middle-section img.large-photo {
+    width: 100%;
+    max-width: 900px; 
+    height: auto;
+    margin:50px auto;
+    display: block; 
+}
+
+
+.middle-section .continue-button {
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.middle-section .continue-button:hover {
+    background-color: #0056b3;
+}
