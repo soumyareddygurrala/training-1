@@ -1,0 +1,121 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: #EAF1FB; /* Light blue background */
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between; /* Space between left and right sections */
+  align-items: center;
+  padding: 10px 20px;
+  background-color: #EAF1FB; /* Navbar background */
+  box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1); /* Optional shadow */
+}
+
+.navbar .logo {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333; /* Dark text color */
+}
+
+.navbar .right-section {
+  display: flex;
+  align-items: center;
+  gap: 15px; /* Space between Signup text and Login button */
+}
+
+.navbar .signup {
+  font-size: 14px;
+  color: #555; /* Slightly lighter text */
+  text-decoration: none;
+}
+
+/* .navbar .signup:hover {
+  text-decoration: underline;
+} */
+
+.navbar .login-btn {
+  padding: 8px 15px;
+  background-color: #0056FF; /* Bright blue color */
+  color: white;
+  border: none;
+  border-radius: 5px;
+  font-size: 14px;
+  cursor: pointer;
+}
+
+.navbar .login-btn:hover {
+  background-color: #0044cc;
+} 
+.container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 50px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.text-section {
+  max-width: 50%;
+}
+
+.text-section h2 {
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 100;
+  color: #333;
+  line-height: 0.05;
+}
+.text-section h1 {
+  font-size: 50px;
+  font-weight: 100;
+  color: #0b0b0b;
+  line-height: 0.05;
+}
+
+.text-section p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #0b0b0b;
+  margin: 20px 0;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px;
+}
+
+.button-group .btn {
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+}
+
+.button-group .btn-primary {
+  background-color: #0056FF;
+  color: white;
+  border-color: #0056FF;
+}
+
+.button-group .btn-primary:hover {
+  background-color: #0044cc;
+}
+
+.button-group .btn-secondary {
+  background-color: transparent;
+  color: #333;
+  border-color: #6A0DAD; /* Purple color */
+}
+
+.button-group .btn-secondary:hover {
+  background-color: #f0e6fa;
+}
+
+.image-section img {
+  max-width: 90%;
+  height: auto;
+}
